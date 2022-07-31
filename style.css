@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.notes{
+    background-color: beige;
+    height: 500px;
+    width: 500px;
+}
+.tools{
+    background-color: rgb(17, 107, 5);
+    display: flex;
+   justify-content: end;
+   padding: .5rem;
+   margin: 2px;
+}
+.tools button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.notes .main{
+    height: 100%;
+    width:  100%;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+ .notes .text{
+    outline: none;
+    border: none;
+    height: 99%;
+    width: 99%;
+    font-size: 1.7rem;
+ }
+.notes .hidden{
+    display: none;
+}
+.add button{
+    position: relative;
+    left: 71rem;
+    background-color: transparent;
+    cursor: pointer;
+}
