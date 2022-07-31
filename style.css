@@ -4,10 +4,10 @@ body{
     flex-wrap: wrap;
     font-family: 'Ubuntu Mono', monospace;
 }
-.notes{
+.note{
     background-color: beige;
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
 }
 .tools{
     background-color: rgb(17, 107, 5);
@@ -24,25 +24,25 @@ body{
     margin-left: 15px;
     font-size: 20px;
 }
-.notes .main{
+.note .main{
     height: 100%;
     width:  100%;
     overflow: hidden;
     background-color: aliceblue;
 }
- .notes .text{
+ .note .text{
     outline: none;
     border: none;
-    height: 99%;
+    height: 250px;
     width: 99%;
     font-size: 1.7rem;
  }
-.notes .hidden{
+.note .hidden{
     display: none;
 }
 .add button{
-    position: relative;
-    left: 71rem;
+    position: absolute;
+    left: 80rem;
     background-color: transparent;
     cursor: pointer;
 }
